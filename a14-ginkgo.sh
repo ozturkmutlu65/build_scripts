@@ -10,3 +10,7 @@ git clone https://github.com/ozturkmutlu65/local_manifest -b main .repo/local_ma
 riseup ginkgo userdebug 
 make installclean
 rise b
+
+#upload
+cd out/target/product/ginkgo
+curl -T "RisingOS*.zip" https://pixeldrain.com/api/file/
